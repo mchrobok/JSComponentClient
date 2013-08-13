@@ -1,0 +1,16 @@
+{
+  "name": "JSComponentClient",
+  "version": "0.1.0",
+  "main": "index.html",
+  "dependencies": {
+    "angular-latest": "1.1.5",
+    "imagecroptest": "0.1.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
