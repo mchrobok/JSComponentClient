@@ -1,11 +1,14 @@
 <html ng-app>
-<head>
-    <title></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="controller.js"></script>
-</head>
-<body data-ng-controller="Controller">
-    <div id="includedContent"/>
-</body>
+    <head>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/jquery/jquery.min.js"></script>
+        <script src="controller.js"></script>
+
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+    </head>
+    <body data-ng-controller="Controller" style="background-color: lightgrey">
+        <input id="url"/>
+        <button id="load" ng-click="load()">Set image</button>
+        <iframe id="widget" class="noborder" scrolling="no"/>
+    </body>
 </html>
