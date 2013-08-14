@@ -1,15 +1,16 @@
 function Controller ($scope) {
   $scope.load = function () {
-    var F = document.getElementById("widget");
+    var widget = document.getElementById("widget");
     if ($('#url').val() !== '') {
-      F.contentWindow.loadImage($('#url').val(), imageLoadedCallback);
+      widget.contentWindow.loadImage($('#url').val(), imageLoadedCallback);
     }
   };
 
   function imageLoadedCallback () {
-    var F = document.getElementById("widget");
-    F.height = F.contentDocument.documentElement.scrollHeight;
-    F.width = F.contentDocument.documentElement.scrollWidth;
+    var widget = document.getElementById("widget");
+    widget.height = widget.contentDocument.documentElement.scrollHeight;
+    widget.width = widget.contentDocument.documentElement.scrollWidth;
+
   }
 
   $('#widget').load(function () {
