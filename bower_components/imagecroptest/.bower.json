@@ -1,0 +1,16 @@
+{
+  "name": "ImageCropper",
+  "version": "0.4.0",
+  "dependencies": {
+    "jcrop": "0.9.12"
+  },
+  "homepage": "https://github.com/mchrobok/JSComponent",
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.4.0",
+    "commit": "c005d86f0389062eeea456c3a2d97034ab939c32"
+  },
+  "_source": "https://github.com/mchrobok/JSComponent.git",
+  "_target": "*"
+}
